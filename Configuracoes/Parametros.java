@@ -1,3 +1,5 @@
+package Configuracoes;
+
 public final class Parametros {
     private final int id;
     private final int operacao;
