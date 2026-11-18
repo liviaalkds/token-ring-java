@@ -4,9 +4,9 @@ public final class Parametros {
     private final int voltas;
 
     public Parametros(String[] args, boolean ehMestre) {
-        if (args == null || args.length < 3) {
+        if (args == null || args.length != 3) {
             throw new IllegalArgumentException(
-                    "Informe pelo menos 3 argumentos: <id> <operação> <voltas>."
+                    "Informe exatamente 3 argumentos: <id> <operação> <voltas>."
             );
         }
 
