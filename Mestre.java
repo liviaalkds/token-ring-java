@@ -1,4 +1,4 @@
-package Configuracoes;
+import Configuracoes.Parametros;
 
 public class Mestre {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class Mestre {
                     parametros, host).iniciar();
         } catch (IllegalArgumentException e) {
             System.err.println("Erro: " + e.getMessage());
-            System.err.println("Uso: java Configuracoes.Mestre <id> <operacao> <voltas> [host]");
+            System.err.println("Uso: java Mestre <id> <operacao> <voltas> [host]");
             System.exit(1);
         }
     }

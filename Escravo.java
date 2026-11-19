@@ -1,4 +1,4 @@
-import Configuracoes;
+import Configuracoes.Parametros;
 
 public class Escravo {
     public static void main(String[] args) {
