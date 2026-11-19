@@ -1,3 +1,5 @@
+package Configuracoes;
+
 public final class Operacao {
     private Operacao() {
     }
