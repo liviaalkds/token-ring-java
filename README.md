@@ -35,7 +35,7 @@ O parâmetro `-d out` manda os arquivos `.class` para a pasta `out`, que o próp
 Depois de compilar, rode a classe de teste a partir da raiz do projeto:
 
 ```bash
-java -cp out TesteTokenRing
+java -cp out
 ```
 
 Se as classes de `Configuracoes` e `processos` estiverem declaradas em pacotes, o `-cp out` já resolve a busca por elas, desde que os nomes dos pacotes batam com os das pastas.
